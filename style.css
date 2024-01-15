@@ -1,0 +1,75 @@
+/* CSS cho màn hình đăng nhập */
+.login-screen {
+    display: flex;
+    flex-direction: column; /* Chia cột, dòng đầu tiên sẽ là chính, dòng thứ hai là nội dung */
+    align-items: center; /* Căn giữa theo chiều ngang */
+    justify-content: center; /* Căn giữa theo chiều dọc */
+    height: 100vh; /* Chiều cao 100% của viewport */
+  }
+  
+  .login-header {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .login-content {
+    text-align: center;
+    max-width: 400px; /* Điều chỉnh độ rộng tối đa của nội dung */
+  }
+  
+
+
+ /* CSS cho màn hình đăng nhập */
+.login-screen {
+    display: flex;
+    flex-direction: column; /* Chia cột, dòng đầu tiên sẽ là chính, dòng thứ hai là nội dung */
+    align-items: center; /* Căn giữa theo chiều ngang */
+    justify-content: center; /* Căn giữa theo chiều dọc */
+    height: 100vh; /* Chiều cao 100% của viewport */
+  }
+  
+  .login-header {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .login-content {
+    text-align: center;
+    max-width: 400px; /* Điều chỉnh độ rộng tối đa của nội dung */
+  }
+  
+  .login-image {
+    width: 100%; /* Ảnh sẽ chiếm toàn bộ độ rộng của phần content */
+    max-width: 400px; /* Điều chỉnh độ rộng tối đa của ảnh */
+    margin-bottom: 20px; /* Điều chỉnh khoảng cách giữa ảnh và nội dung */
+  }
+  
+
+
+
+
+
+/* CSS cho màn hình đăng ký */
+.custom-text {
+    font-size: 1.5em;
+    font-weight: 500;
+    white-space: pre-wrap;
+    display: flex;
+    flex-direction: column; /* Xếp theo chiều dọc */
+    align-items: center; /* Căn giữa theo chiều ngang */
+  }
+  
+  .custom-content {
+    text-align: left;
+    max-width: 400px; /* Điều chỉnh độ rộng tối đa của nội dung */
+  }
+  
+  .custom-image2 {
+    width: 20%;
+    height: auto;
+    align-self: flex-start; /* Đặt hình ảnh ở bên trái */
+    margin-left: 20px; /* Khoảng cách giữa hình ảnh và nội dung */
+  }
+  
